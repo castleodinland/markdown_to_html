@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+*.md
+!README.md
+
+*.html
+files/
+pic2/
+*.jpg
+

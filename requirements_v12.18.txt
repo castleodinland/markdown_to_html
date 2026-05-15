@@ -1,0 +1,14 @@
+# ============================================================
+# markdown_to_html_v12.18.py - 外部依赖清单
+# 使用: pip install -r requirements_v12.18.txt
+# ============================================================
+
+# ===== 必需依赖 =====
+markdown>=3.0          # Markdown 转 HTML
+beautifulsoup4>=4.0    # HTML 解析处理 (bs4)
+playwright>=1.40       # 无头浏览器加载 HTML,提取浏览器端完整性 SHA256
+                       # 安装后需运行: playwright install chromium
+
+# ===== 可选依赖 (推荐安装) =====
+Pygments>=2.0          # 代码语法高亮 (codehilite 扩展)
+ziamath>=0.9           # LaTeX 公式渲染为 SVG (若缺失则公式显示为纯文本)
